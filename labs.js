@@ -271,5 +271,5 @@ console.log('New Total: ', newTotal)
 */
 
 // CODE HERE
-savings = newTotal/total*100
+savings = (total - newTotal)/total*100
 console.log(`Your now saving: ${savings}%`)
